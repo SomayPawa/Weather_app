@@ -16,7 +16,6 @@ function WeatherApp() {
     
     const[wicon,seticon] = useState(cloud_icon);
 
-    // create a arrow fnction
     const search = async () => {
         const element = document.getElementsByClassName("cityInput");
         if (element[0].value === "") {
